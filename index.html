@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Manager Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Raleway', sans-serif; }
+
+    body {
+      background-color: #fff;
+      color: #2e2e2e;
+    }
+
+    header {
+      background-color: #1f3a28;
+      padding: 10px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img.logo {
+      height: 60px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h1.section-title {
+      background-color: #e4d5c2;
+      color: #1f3a28;
+      font-size: 3em;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    .section-heading {
+      font-size: 1.5em;
+      margin: 30px 0 10px;
+      padding-left: 60px;
+      color: #e4d5c2;
+    }
+
+    .form-section, .dashboard-section {
+      background-color: #1f3a28;
+      padding: 30px 60px;
+    }
+
+    .form-box, .dashboard-box {
+      background-color: white;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .form-box p, .dashboard-box p {
+      max-width: 80%;
+      color: #222;
+    }
+
+    .view-button {
+      padding: 10px 20px;
+      background-color: #f97316;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .dashboard-set {
+      background-color: #e4d5c2;
+      padding: 40px 60px;
+    }
+
+    .dashboard-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .dashboard-card {
+      background: white;
+      padding: 20px;
+      width: 300px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .dashboard-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+    .logo {
+      height: 80px;
+      object-fit: contain;
+      background-color: white;
+    }
+
+    .dashboard-card .view-button {
+      margin-top: 15px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/images/UC_logo.png.avif" alt="University of Cincinnati" class="logo">
+    <nav>
+      <a href="https://farmersmarket-hub.github.io/Home/">Home</a>
+      <a href="https://farmersmarket-hub.github.io/Vendor-Portal/">Vendors</a>
+      <a href="Market_Manager.html">Market Manager</a>
+      <a href="Funder_Portal.html">Funders</a>
+      <a href="Technical_assistance.html">Technical Assistance</a>
+    </nav>
+  </header>
+
+  <h1 class="section-title">Market Manager Portal</h1>
+
+  <section class="form-section">
+    <h2 class="section-heading">Pre-Market Forms</h2>
+    <div class="form-box">
+      <div>
+        <strong>Upcoming Market Form</strong>
+        <p>Complete this form by end of the day on Wednesday before each market to let the vendors know what produce items (if any) you are bringing to sell, what the culture theme of the day/week is, and any other important information they would need to know.</p>
+      </div>
+      <a href="https://farmersmarket-hub.github.io/Upcoming-Market/" class="view-button">View Form</a>
+    </div>
+
+    <h2 class="section-heading">Market Day Forms</h2>
+    <div class="form-box">
+      <div>
+        <strong>Attendee Registration Form</strong>
+        <p>Register new attendees at the market’s registration table. Complete only once per household.</p>
+      </div>
+      <a href="https://farmersmarket-hub.github.io/Attendee-Registration/" class="view-button">View Form</a>
+    </div>
+    <div class="form-box">
+      <div>
+        <strong>Market Vendor Check-in/Check-out Form</strong>
+        <p>Use to check in and out PGL staff and volunteers at the start and end of the market day.</p>
+      </div>
+      <a href="#" class="view-button">View Form</a>
+    </div>
+    <div class="form-box">
+      <div>
+        <strong>CSA Pick Up Form</strong>
+        <p>Document all CSA bag pickups by currently enrolled CSA members.</p>
+      </div>
+      <a href="https://farmersmarket-hub.github.io/CSA-PickUp/" class="view-button">View Form</a>
+    </div>
+
+    <h2 class="section-heading">Other Forms</h2>
+    <div class="form-box">
+      <div>
+        <strong>Item Inventory Form</strong>
+        <p>Assign each non-produce item an Item ID and update its information including condition and location.</p>
+      </div>
+      <a href="#" class="view-button">View Form</a>
+    </div>
+    <div class="form-box">
+      <div>
+        <strong>Vendor Upload Form</strong>
+        <p>Upload documents for REACH compliance. Confirm with your REACH contact for requirements.</p>
+      </div>
+      <a href="#" class="view-button">View Form</a>
+    </div>
+    <div class="form-box">
+      <div>
+        <strong>Market Vendor Request Form</strong>
+        <p>Complete before the first market to generate your Vendor ID and PIN for tracking.</p>
+      </div>
+      <a href="https://farmersmarket-hub.github.io/Market-Vendor-Request/" class="view-button">View Form</a>
+    </div>
+  </section>
+
+  <section class="dashboard-set">
+    <h2 class="section-heading" style="color: #1f3a28;">Shared Dashboard Set</h2>
+    <div class="dashboard-grid">
+      <div class="dashboard-card">
+        <img src="assets/images/Vendor_logo.png" alt="Vendor Dashboard">
+        <strong>Vendor Information Dashboard</strong>
+        <p>Understand more about who the vendors are and what services they offer.</p>
+        <a href="./" class="view-button">View Dashboard</a>
+      </div>
+      <div class="dashboard-card">
+        <img src="assets/images/Sales_Logo.png" alt="Market Sales">
+        <strong>Market Attendance Dashboard</strong>
+        <p>Understand attendee demographics and attendance patterns.</p>
+        <a href="#" class="view-button">View Dashboard</a>
+      </div>
+      <div class="dashboard-card">
+        <img src="assets/images/Invoice_Logo.png" alt="Invoice">
+        <strong>Invoice and Remittance Dashboard</strong>
+        <p>Analyze invoice patterns and payment timelines.</p>
+        <a href="#" class="view-button">View Dashboard</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
